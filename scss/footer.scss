@@ -1,0 +1,18 @@
+footer {
+  height: 100px;
+  background-color: $site-blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: $site-white;
+  margin-top: 100px;
+
+  p {
+    font-size: 12px;
+    font-family: gill;
+  }
+
+  .socials {
+    font-size: 22.46px;
+  }
+}

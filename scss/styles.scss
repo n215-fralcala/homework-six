@@ -1,0 +1,66 @@
+@font-face {
+  font-family: gill-bold;
+  src: url(../fonts/fonts/GillSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: gill-bi;
+  src: url(../fonts/fonts/GillSans-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: gill-italic;
+  src: url(../fonts/fonts/GillSans-Italic.ttf);
+}
+
+@font-face {
+  font-family: gill-light;
+  src: url(../fonts/fonts/GillSans-Light.ttf);
+}
+
+@font-face {
+  font-family: gill-li;
+  src: url(../fonts/fonts/GillSans-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: gill-semib;
+  src: url(../fonts/fonts/GillSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: gill-semibi;
+  src: url(../fonts/fonts/GillSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: gill-ultrab;
+  src: url(../fonts/fonts/GillSans-UltraBold.ttf);
+}
+
+@font-face {
+  font-family: gill;
+  src: url(../fonts/fonts/GillSans.ttf);
+}
+
+@font-face {
+  font-family: nova-exc;
+  src: url(../fonts/fonts/Proxima-Nova-ExCn-Reg.otf);
+}
+
+@font-face {
+  font-family: nova-thin;
+  src: url(../fonts/fonts/Proxima-Nova-Thin.otf);
+}
+
+@font-face {
+  font-family: nova-reg;
+  src: url(../fonts/fonts/Proxima_Nova_Reg.ttf);
+}
+
+@import "variable.scss";
+@import "structure.scss";
+@import "nav.scss";
+@import "home/home.scss";
+@import "about/about.scss";
+@import "footer.scss";

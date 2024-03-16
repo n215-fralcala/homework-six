@@ -1,0 +1,103 @@
+.about-container {
+  margin: 0 20px 0 20px;
+
+  .about {
+    max-width: $content-width;
+    min-height: 100px;
+    margin: 0 auto;
+    // background-color: darkseagreen;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90.5px;
+    margin-bottom: 179px;
+
+    p {
+      font-family: gill;
+      font-size: 16px;
+      // background-color: cadetblue;
+    }
+
+    h1 {
+      font-family: nova-thin;
+      font-weight: 900;
+      font-size: 60px;
+      // text-decoration: underline;
+      width: 150px;
+      border-bottom: 2px solid black;
+      margin-bottom: 36.5px;
+    }
+
+    h2 {
+      font-family: nova-thin;
+      font-weight: 200;
+      font-size: 40px;
+      margin-top: 95px;
+      // width: 255px;
+      // border-bottom: 2px solid black;
+    }
+    .h2-line {
+      width: 230px;
+      border-bottom: 2px solid black;
+      margin-top: -12px;
+    }
+
+    .container {
+      max-width: 722px;
+      min-height: 150px;
+      margin-top: 37px;
+      display: flex;
+      // background-color: blueviolet;
+
+      .image-holder {
+        min-width: 260px;
+        height: 150px;
+        // background-color: chartreuse;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 21px;
+      }
+
+      .client1 {
+        background-image: url(../images/about-client-01.jpg);
+      }
+
+      .client2 {
+        background-image: url(../images/about-client-02.jpg);
+      }
+
+      p {
+        font-family: gill-italic;
+        font-size: 16px;
+        width: 385px;
+      }
+
+      h3 {
+        top: 50px;
+        text-align: right;
+        margin: 52px -55px 0 0;
+        font-family: nova-thin;
+        color: $site-blue;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  .about-container {
+    .about {
+      .container {
+        flex-direction: column;
+        // background-color: orange;
+        align-items: center;
+        .image-holder {
+          margin-bottom: 20px;
+        }
+        h3 {
+          margin: 52px 0px 0 0;
+        }
+      }
+    }
+  }
+}
