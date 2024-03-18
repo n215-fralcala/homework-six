@@ -43,24 +43,25 @@
   src: url(../fonts/fonts/GillSans.ttf);
 }
 
-@font-face {
-  font-family: nova-exc;
-  src: url(../fonts/fonts/Proxima-Nova-ExCn-Reg.otf);
-}
+// @font-face {
+//   font-family: nova-exc;
+//   src: url(../fonts/fonts/Proxima-Nova-ExCn-Reg.otf);
+// }
 
-@font-face {
-  font-family: nova-thin;
-  src: url(../fonts/fonts/Proxima-Nova-Thin.otf);
-}
+// @font-face {
+//   font-family: nova-thin;
+//   src: url(../fonts/fonts/Proxima-Nova-Thin.otf);
+// }
 
-@font-face {
-  font-family: nova-reg;
-  src: url(../fonts/fonts/Proxima_Nova_Reg.ttf);
-}
+// @font-face {
+//   font-family: nova-reg;
+//   src: url(../fonts/fonts/Proxima_Nova_Reg.ttf);
+// }
 
 @import "variable.scss";
 @import "structure.scss";
 @import "nav.scss";
+@import "footer.scss";
 @import "home/home.scss";
 @import "about/about.scss";
-@import "footer.scss";
+@import "tours/tours.scss";
