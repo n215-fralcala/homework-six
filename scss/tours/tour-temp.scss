@@ -1,0 +1,217 @@
+.tour-wrapper {
+  max-width: $content-width;
+  // background-color: indianred;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 48px;
+
+  .hero {
+    height: 413px;
+    width: 100%;
+    // background-color: burlywood;
+    color: white;
+    font-family: gill-light;
+    display: flex;
+
+    h1 {
+      position: relative;
+      right: -30px;
+      top: 18px;
+      font-size: 70px;
+    }
+
+    p {
+      position: relative;
+      top: 395px;
+      right: -140px;
+      text-align: right;
+      font-size: 17px;
+      margin-right: 10px;
+    }
+  }
+
+  .israel-hero {
+    @include add-background-image-hero("../images/tour-01.jpg");
+  }
+  .usa-hero {
+    @include add-background-image-hero("../images/tour-02.jpg");
+  }
+  .aus-hero {
+    @include add-background-image-hero("../images/tour-03.jpg");
+  }
+  .nz-hero {
+    @include add-background-image-hero("../images/tour-04.jpg");
+  }
+  .france-hero {
+    @include add-background-image-hero("../images/tour-05.jpg");
+  }
+  .egypt-hero {
+    @include add-background-image-hero("../images/tour-06.jpg");
+  }
+  .japan-hero {
+    @include add-background-image-hero("../images/tour-07.jpg");
+  }
+  .canada-hero {
+    @include add-background-image-hero("../images/tour-08.jpg");
+  }
+  .uae-hero {
+    @include add-background-image-hero("../images/tour-09.jpg");
+  }
+
+  .images-box {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // background-color: crimson;
+
+    .image-holder {
+      width: 298px;
+      height: 347px;
+    }
+
+    .israel-image1 {
+      @include add-background-image("../images/israel-tour-01.jpg");
+    }
+    .israel-image2 {
+      @include add-background-image("../images/israel-tour-02.jpg");
+    }
+    .israel-image3 {
+      @include add-background-image("../images/israel-tour-03.jpg");
+    }
+
+    // usa
+    .usa-image1 {
+      @include add-background-image("../images/usa-tour-01.jpg");
+    }
+    .usa-image2 {
+      @include add-background-image("../images/usa-tour-02.jpg");
+    }
+    .usa-image3 {
+      @include add-background-image("../images/usa-tour-03.jpg");
+    }
+
+    // australia
+    .aus-image1 {
+      @include add-background-image("../images/aus-tour-01.jpg");
+    }
+    .aus-image2 {
+      @include add-background-image("../images/aus-tour-02.jpg");
+    }
+    .aus-image3 {
+      @include add-background-image("../images/aus-tour-03.jpg");
+    }
+
+    // new zealand
+    .nz-image1 {
+      @include add-background-image("../images/nz-tour-01.jpg");
+    }
+    .nz-image2 {
+      @include add-background-image("../images/nz-tour-02.jpg");
+    }
+    .nz-image3 {
+      @include add-background-image("../images/nz-tour-03.jpg");
+    }
+
+    //france
+    .france-image1 {
+      @include add-background-image("../images/france-tour-01.jpg");
+    }
+    .france-image2 {
+      @include add-background-image("../images/france-tour-02.jpg");
+    }
+    .france-image3 {
+      @include add-background-image("../images/france-tour-03.jpg");
+    }
+
+    //egypt
+    .egypt-image1 {
+      @include add-background-image("../images/egypt-tour-01.jpg");
+    }
+    .egypt-image2 {
+      @include add-background-image("../images/egypt-tour-02.jpg");
+    }
+    .egypt-image3 {
+      @include add-background-image("../images/egypt-tour-03.jpg");
+    }
+
+    //japan
+    .japan-image1 {
+      @include add-background-image("../images/japan-tour-01.jpg");
+    }
+    .japan-image2 {
+      @include add-background-image("../images/japan-tour-02.jpg");
+    }
+    .japan-image3 {
+      @include add-background-image("../images/japan-tour-03.jpg");
+    }
+
+    // canada
+    .canada-image1 {
+      @include add-background-image("../images/canada-tour-01.jpg");
+    }
+    .canada-image2 {
+      @include add-background-image("../images/canada-tour-02.jpg");
+    }
+    .canada-image3 {
+      @include add-background-image("../images/canada-tour-03.jpg");
+    }
+
+    //uae
+    .uae-image1 {
+      @include add-background-image("../images/uae-tour-01.jpg");
+    }
+    .uae-image2 {
+      @include add-background-image("../images/uae-tour-02.jpg");
+    }
+    .uae-image3 {
+      @include add-background-image("../images/uae-tour-03.jpg");
+    }
+  }
+
+  main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .day {
+      h2 {
+        font-family: gill-light;
+        font-weight: 100;
+        font-size: 60px;
+      }
+      .line {
+        width: 155px;
+        border-bottom: 1px solid black;
+      }
+
+      p {
+        font-family: gill;
+        font-size: 16px;
+        margin-bottom: 70px;
+      }
+    }
+    .button {
+      width: 133px;
+      height: 40px;
+      background-color: $site-blue;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 37.8px;
+
+      span {
+        font-size: 15px;
+        font-family: gill;
+        color: $site-white;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

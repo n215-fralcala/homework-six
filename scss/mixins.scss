@@ -1,0 +1,14 @@
+@mixin add-background-image($imageURL: "") {
+  background-image: url($imageURL);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin add-background-image-hero($imageURL: "") {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)),
+    url($imageURL);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
